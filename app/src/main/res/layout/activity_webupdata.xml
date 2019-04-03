@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/uplaunch"/>
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在更新"
+            android:layout_above="@+id/pro"
+            android:textSize="15sp"
+            android:paddingTop="50dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"/>
+        <ProgressBar
+            android:id="@+id/pro"
+            android:progress="0"
+            android:max="100"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:progressDrawable="@drawable/progress"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            style="@style/processBarStyle"/>
+    </RelativeLayout>
+
+</RelativeLayout>
