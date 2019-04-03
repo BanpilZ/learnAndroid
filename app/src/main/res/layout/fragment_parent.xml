@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<WebView-->
+        <!--android:id="@+id/web"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/bg"-->
+        <!--android:src="@mipmap/launch"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<TextView-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:id="@+id/loading"-->
+        <!--android:text="游戏加载中。。。"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>

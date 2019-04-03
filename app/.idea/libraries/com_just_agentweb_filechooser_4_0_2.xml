@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.just.agentweb:filechooser-4.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/6c2ed885d18ef8441088af7c28199fe04cb1ae9b/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6c2ed885d18ef8441088af7c28199fe04cb1ae9b/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.just.agentweb/filechooser/4.0.2/32aa50675a34e72883179117b719d6a9dfd42eac/filechooser-4.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

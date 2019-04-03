@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fkgpby0329.yxb.activitys.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/register_rl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#138ae6"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/register_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/beauty_btn_back2" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="注册"
+                android:textColor="#f0f0f0" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/register_v"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/register_rl"
+            android:background="#cccad0" />
+
+        <RelativeLayout
+            android:id="@+id/register_rl2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/register_v"
+            android:layout_marginTop="5dp"
+            android:background="#f0f0f0"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/register_tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="手机号" />
+
+            <EditText
+                android:id="@+id/register_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/register_tv_phone"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/register_tv_phone"
+                android:background="@null"
+                android:hint="请输入手机号"
+                android:paddingLeft="10dp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/register_v2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/register_rl2"
+            android:background="#cccad0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/register_v2"
+            android:layout_marginTop="5dp"
+            android:background="#f0f0f0"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/register_tv_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="密码" />
+
+            <EditText
+                android:id="@+id/register_et_pws"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/register_tv_psw"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/register_tv_psw"
+                android:background="@null"
+                android:hint="请输入密码"
+                android:paddingLeft="10dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/register_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="注册即代表已阅读并同意注册协议和隐私政策>" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_t"
+            android:layout_margin="10dp"
+            android:background="#138ae6"
+            android:onClick="register_btn"
+            android:text="注册" />
+    </LinearLayout>
+</ScrollView>

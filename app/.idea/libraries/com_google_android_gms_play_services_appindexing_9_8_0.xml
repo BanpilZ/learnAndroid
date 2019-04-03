@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.google.android.gms:play-services-appindexing-9.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a73e680e506c97b9e214b5840387f8f6ecba50ee/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a73e680e506c97b9e214b5840387f8f6ecba50ee/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
