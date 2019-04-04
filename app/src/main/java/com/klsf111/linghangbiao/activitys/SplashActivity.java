@@ -57,6 +57,11 @@ private void getLeanCloudObject(){
             }
         };
         new Timer().schedule(ts, 2000);
+        AVObject zlwTest = new AVObject("ZLWTest");
+        zlwTest.put("name", "zlwTest");
+        zlwTest.put("amt", 1);
+        zlwTest.put("flag", true);
+        zlwTest.saveInBackground();
     }
 
     /**
